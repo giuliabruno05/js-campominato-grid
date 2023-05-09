@@ -44,7 +44,10 @@ main{
     border: 1px solid black;
     width: 10%;
     height:calc(40vw / 10 );
-    
+}
+
+.squareBlue{ 
+    background-color: blue;
 }
 
 footer{ 
