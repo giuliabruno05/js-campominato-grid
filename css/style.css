@@ -24,6 +24,10 @@ header img{
     position: absolute;
     right: 0;
 }
+#level{ 
+    position: absolute;
+    right: 70px;
+}
 main{ 
     background-color:#7fffd4;
     height: 550px;
@@ -40,12 +44,22 @@ main{
     
     
 }
-.square{ 
+.easy{ 
     border: 1px solid black;
     width: 10%;
     height:calc(40vw / 10 );
 }
-
+.medium{
+    border: 1px solid black;
+    width: calc(100% / 9);
+    height:calc(40vw / 9 );
+}
+.hard{ 
+    border: 1px solid black;
+    width: calc(100% / 7);
+    height:calc(40vw / 7 );
+}
+   
 .squareBlue{ 
     background-color: blue;
 }
