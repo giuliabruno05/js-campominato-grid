@@ -1,5 +1,5 @@
 //dichiaro una variabile
-let numArray = 100;
+ let numArray = 100;
 
 
 // costanti globali
@@ -11,12 +11,14 @@ const array = Array.from({length:numArray},(_,i) => i + 1);
 
 //L'utente clicca il bottone per generare una griglia
 buttonPlay.addEventListener("click",
+
     function () {
-        
+        grid.innerHTML ="";
         // salvo la difficoltà del livello
 
         const levelPlay = document.getElementById("level").value;
         if (levelPlay === "easy") {
+            numArray = 100;
 
             nameClass="easy";
 
